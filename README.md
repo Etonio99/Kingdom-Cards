@@ -1,5 +1,7 @@
 # Kingdom-Cards
 
+This game was created in Unity 3D and programmed in C#. All of the assets were created by me.
+
 Kingdom Cards is a card game where players verse each other 1v1 and must strategically play their cards in order to rid the opponent of their health points and come out a winner. This project has been an idea for several years and I hope to finish prodution sometime in the future.
 
 The app can be downloaded in an open-testing state at https://play.google.com/store/apps/details?id=com.ebreiny.KingdomCards.
@@ -14,8 +16,10 @@ The game currently does not have in-game instructions. Each player has a deck of
 
 Each player gains 2 mana each round. The amount you collect each round will increase to 3 after round 5. The maximum amount of mana you can have at once is 12, and any mana that goes over 12 is wasted.
 
-There are 3 different types of cards; creature cards, spell cards, and structure cards. Creature cards are the most common and have more than 0 health points. Creature cards can have abilities, but not all of them do. Spell cards have 0 health but always have abilites. Structure cards are not currently implemented in this version, but are lingering cards that grant affects over a certain number of rounds. Structure cards also have 0 health points.
+There are 3 different types of cards; creature cards, spell cards, and structure cards. Creature cards are the most common and have more than 0 health points. Creature cards can have abilities, but not all of them do. Spell cards have 0 health but always have abilites. Structure cards are not currently implemented in this version, but are lingering cards that grant affects over a certain number of rounds. Structure cards also have 0 health points. Tap and hold on a card to view its abilities.
 
 If a player has no cards left in their deck, they reshuffle their cards (not including their current hand) to allow them to draw more.
+
+<img src='https://user-images.githubusercontent.com/65688007/147422079-e4df7565-afa1-4d25-92c4-26f9d28c20c9.png' width=24% height=24%> <img src='https://user-images.githubusercontent.com/65688007/147422081-52745f0a-54f5-47c1-a935-7b50eb2b0696.png' width=24% height=24%> <img src='https://user-images.githubusercontent.com/65688007/147422082-ab7071af-57d5-40c8-90bd-535584119a57.png' width=24% height=24%> <img src='https://user-images.githubusercontent.com/65688007/147422083-0fc9f6c9-6557-48d8-a12f-ff7b01c3406c.png' width=24% height=24%>
 
 ## Code
