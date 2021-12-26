@@ -23,3 +23,12 @@ If a player has no cards left in their deck, they reshuffle their cards (not inc
 <img src='https://user-images.githubusercontent.com/65688007/147422079-e4df7565-afa1-4d25-92c4-26f9d28c20c9.png' width=24% height=24%> <img src='https://user-images.githubusercontent.com/65688007/147422081-52745f0a-54f5-47c1-a935-7b50eb2b0696.png' width=24% height=24%> <img src='https://user-images.githubusercontent.com/65688007/147422082-ab7071af-57d5-40c8-90bd-535584119a57.png' width=24% height=24%> <img src='https://user-images.githubusercontent.com/65688007/147422083-0fc9f6c9-6557-48d8-a12f-ff7b01c3406c.png' width=24% height=24%>
 
 ## Code
+
+There are so many scripts here it would be difficult to mention them all, but I will talk about a few of the more important ones. AssetsManagerScript.cs is in charge of storing data for all of the cards and assets used in the game. A card is an object that can easily have all of its settings changed. This allows each card to be created quite quickly and easily and for each to be very different from others.
+
+StatsManagerScript.cs is in charge of keeping track of the cards you have unlocked, the decks you have built, and how far the player has progressed through the story mode.
+
+The two scripts mentioned above are not destroyed as the game switches scenes, allowing data to be transfered through scenes. Many other scripts access data from these two scripts to know the current state of the game.
+
+CardScript.cs is what allows the cards to work while in a match. It keeps track of the slot that the card is in in your hand, dealing damage and activating abilites, and being removed from the board after each round.
+
