@@ -8,7 +8,7 @@ The app can be downloaded in an open-testing state at https://play.google.com/st
 
 This app has log-in capabilites through Microsoft Azure Playfab. If you would like to play the game yourself without creating an account, you can log in with the following credentials:
 
-Email: test@test.test
+Username: Tester
 
 Password: Tester
 
