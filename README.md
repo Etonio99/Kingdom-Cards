@@ -4,9 +4,7 @@ This game was created in Unity 3D and programmed in C#. All of the assets were c
 
 Kingdom Cards is a card game where players verse each other 1v1 and must strategically play their cards in order to rid the opponent of their health points and come out a winner. This project has been an idea for several years and I hope to finish prodution sometime in the future.
 
-The app can be downloaded in an open-testing state at 
-
-https://play.google.com/store/apps/details?id=com.ebreiny.KingdomCards.
+The app can be downloaded in an open-testing state at https://play.google.com/store/apps/details?id=com.ebreiny.KingdomCards.
 
 This app has log-in capabilites through Microsoft Azure Playfab. If you would like to play the game yourself without creating an account, you can log in with the following credentials:
 
