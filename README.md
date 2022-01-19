@@ -14,6 +14,8 @@ Password: Tester
 
 ## Gameplay
 
+As of January 18th, 2022, a 5-minute Youtube video has been created to explain the basics of app navigation and gameplay. You can watch that video at the following link: https://youtu.be/01LFTjyBexA
+
 The game currently does not have in-game instructions. Each player has a deck of 20 cards. At the beginning of a match, each player draws 3 cards. These three cards are your hand. Each card has a mana cost (blue diamond), health points (red heart), and attack value (yellow sword). You can only play cards from your hand. To play a card you must have the same or more mana as the mana cost of that card. Both players play a single chosen card at the same time. This starts what is called a 'round'. Each card will deal their attack value to the other at the same time, removing health points from each other. The first card to run out of health points will be removed, allowing the surviving card to deal full attack value damage directly to the opponents health. If both cards tie, both are removed and the next round can start. To win, you must get your opponent's health points to 0.
 
 Each player gains 2 mana each round. The amount you collect each round will increase to 3 after round 5. The maximum amount of mana you can have at once is 12, and any mana that goes over 12 is wasted.
@@ -33,4 +35,3 @@ StatsManagerScript.cs is in charge of keeping track of the cards you have unlock
 The two scripts mentioned above are not destroyed as the game switches scenes, allowing data to be transfered through scenes. Many other scripts access data from these two scripts to know the current state of the game.
 
 CardScript.cs is what allows the cards to work while in a match. It keeps track of the slot that the card is in in your hand, dealing damage and activating abilites, and being removed from the board after each round.
-
